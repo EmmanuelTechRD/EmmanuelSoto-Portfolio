@@ -492,9 +492,7 @@ h1.title a {
     width: 100%;
     height: 100%;
     padding: 0;
-    background: url(https://1.bp.blogspot.com/-VutLFPc57po/X7BWEKRWFkI/AAAAAAAAG1Y/zqt2rmingvg3dNoBJMfeI9dLSe2BHmRLQCLcBGAsYHQ/s16000/DJI_Inspire.webp) no-repeat center bottom;
-    background-attachment: fixed;
-    background-size: cover
+    background-color: #006eff
 }
 .hero .hero-content.light-txt .hero-subtitle,
 .hero .hero-content.light-txt h1,
@@ -2548,11 +2546,11 @@ user is not using shrink to fit then we expand the header.
               <div class='row'>
                 <div class='col-md-12' data-wow-delay='1s' data-wow-duration='2s'>
                   <!-- Header Sub Title -->
-                  <h5 class='banner-txt-position-'>Hola, soy</h5>
+                  <h5 class='banner-txt-position-'>Hi there, I am</h5>
 
                   <!-- Header Headlines -->
                   <p class='hero-subtitle'>
-                    <span class='typist-text typist-blink' data-typist='Un joven apasionado por la tecnología, Emmanuel S.' id='typist-element'>EmmanuelTech</span>
+                    <span class='typist-text typist-blink' data-typist='Emmanuel Soto, A passionate Software Developer' id='typist-element'>EmmanuelTech</span>
                   </p>
 
                   <!-- Header Social Links 
