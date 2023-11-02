@@ -554,6 +554,9 @@ License: https://linearicons.com/free/license
         line-height: 3rem;
         height: 5rem
     }
+    #portfolioCallToAction{
+    font-size: 10px
+  }
 }
 @media (max-width: 750px) {
   .hero{
@@ -1132,7 +1135,7 @@ margin-bottom:0!important;
     padding: 0;
     margin: 0;
 }
-.service-box.style-2 .service-box-content h4 b{
+.service-box.style-2 .service-box-content h4 strong{
 color: #22272c;
 }
 .service-box.style-2 .service-box-content>*:last-child {
@@ -1157,7 +1160,7 @@ margin: 0;
 font-size: 60px;
 }
 .text-center{text-align:center;}
-.service-box.style-2:hover > i , .service-box.style-2:hover .service-box-content h4 b{
+.service-box.style-2:hover > i , .service-box.style-2:hover .service-box-content h4 strong{
 color:#0e4dab;
 cursor:pointer
 }
@@ -1321,11 +1324,15 @@ nav.navigation.post-navigation.hidden-xs {
 
 .quoute{
 }
-.quoute-content{}
+.quoute-content{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 .quoute-content h1{
 	color:#fff;
     font-weight: 600;
-margin-top:0px!important;
+    margin-top:0px!important;
     margin-bottom:20px!important;
 }
 .quoute-content p{
@@ -1338,7 +1345,6 @@ margin-top:0px!important;
   background:#fffffffc;
 }
 .quoute-content .quoute-link{
-	float: left;
 	color: #fff;
 	border: 3px solid #fff;
 	padding: 10px 25px;
@@ -1346,6 +1352,7 @@ margin-top:0px!important;
 	border-radius: 50px;
 	margin-top: 20px;
 	transition:.4s;
+  text-transform: uppercase;
 }
 .quoute-content .quoute-link:hover{
 	background:#fff;
@@ -2041,7 +2048,7 @@ display:none;
 }
 section#contact {
     background: #fff;
-    padding-top: 10px!important;
+    padding-top: 0px;
 }
 .bottom-thing {
     width: 100%;
@@ -2341,7 +2348,8 @@ body{background: #f5f5f5;}
           .main-wrapper{margin:0}
           .sidebar-wrapper{display:none}
           #worksGrid{display:table}
-          #portfolio{background:#fff}
+          #portfolio{background: #fff; padding-top: 27px;padding-bottom: 15px}
+          #blog-ns{padding-top: 40px;padding-bottom: 60px;margin-bottom: -10px}
           .worksItem{padding:0;overflow:hidden;height:auto;text-align:center;position:relative;float:left;width:31.333%;max-height:360px;margin:10px;background:#000000;cursor:pointer}
           .worksItem img{width:100%;height:275px;-webkit-transition:all .25s ease-out;transition:all .25s ease-out;object-fit:cover;position:relative;display:block;min-height:100%;max-width:100%;opacity:.7}
           .worksItem .itemCaption{padding:2em;color:#fff;text-transform:uppercase;font-size:1.25em;-webkit-backface-visibility:hidden;backface-visibility:hidden;position:absolute;top:0;left:0;width:100%;height:100%;}
@@ -2411,9 +2419,9 @@ window.cookieconsent.initialise({
   },
   &quot;theme&quot;: &quot;edgeless&quot;,
   &quot;content&quot;: {
-    &quot;message&quot;: &quot;Utilizamos galletas para garantizar que obtengas la mejor experiencia en nuestro sitio web.&quot;,
-    &quot;dismiss&quot;: &quot;&#161;Cool!&quot;,
-    &quot;link&quot;: &quot;Saber  más...&quot;,
+    &quot;message&quot;: &quot;To provide you with the best possible experience, my website utilizes cookies.&quot;,
+    &quot;dismiss&quot;: &quot;Cool!!&quot;,
+    &quot;link&quot;: &quot;I want to know more about it...&quot;,
     &quot;href&quot;: &quot;https://etechrd.blogspot.com/p/politica-de-cookies.html&quot;
   }
 });
@@ -2519,13 +2527,13 @@ user is not using shrink to fit then we expand the header.
           <!-- Top Nav -->
           <ul class='nav navbar-nav navbar-right navbar-link-dark'>
             <li>
-              <a href='/#mouse'>Servicios</a>
+              <a href='/#mouse'>Services</a>
             </li>
             <li>
-              <a href='/#blog-ns'>EmmanuelTech</a>
+              <a href='/#portfolio'>EmmanuelTech</a>
             </li>
             <li>
-              <a href='/#contact'>Contacto</a>
+              <a href='/#contact'>Get in touch</a>
             </li>
           </ul>
           <!-- Top Nav/End -->
@@ -2575,7 +2583,7 @@ user is not using shrink to fit then we expand the header.
           <!--Page Header-->
           <div class='row page-header wow fadeInUp animated' style='visibility: visible;'>
             <h2>
-              Servicios
+              Services
             </h2>
             <div class='border-bottom'/>
           </div>
@@ -2589,8 +2597,8 @@ user is not using shrink to fit then we expand the header.
                     <div class='service-box style-2 '>
                       <!-- Service Icon --><i class='lnr lnr-camera-video'/>
                       <div class='service-box-content'>
-                        <!-- Service Heading --><h4><b>Edición de Video</b></h4>
-                        <!-- Service Description --><p>Recortes, transiciones, animaciones, efectos especiales y audio.</p>
+                        <!-- Service Heading --><a href="/#contact"><h4><strong>Video editing</strong></h4></a>
+                        <!-- Service Description --><p>Cuts, transitions, animations, special effects and audio.</p>
                       </div>
                     </div>
                   </div>
@@ -2605,8 +2613,8 @@ user is not using shrink to fit then we expand the header.
                       <!-- Service Icon --><i class='lnr lnr-earth'/>
                       <div class='service-box-content'>
                         <!-- Service Heading -->
-                        <h4><b>Diseño Web</b></h4>
-                        <!-- Service Description --><p>Diseño personalizado de websites con tecnología responsive.</p>
+                        <a href="/#contact"><h4><strong>Web Development</strong></h4></a>
+                        <!-- Service Description --><p>Customized design and development of websites with responsive technology.</p>
                       </div>
                     </div>
                   </div>
@@ -2620,8 +2628,8 @@ user is not using shrink to fit then we expand the header.
                     <div class='service-box style-2 '>
                       <!-- Icon --><i class='lnr lnr-screen'/>
                       <div class='service-box-content'>
-                        <!-- Service Heading --><h4><b>Diseño Gráfico</b></h4>
-                        <!-- Service Description --><p>Animaciones, logos e identidad corporativa, edición de fotos entre otras cosas.</p>
+                        <!-- Service Heading --><a href="/#contact"><h4><strong>Graphic Design</strong></h4></a>
+                        <!-- Service Description --><p>Animations, logos and corporate identity, photo editing among other things.</p>
                       </div>
                     </div>
                   </div>
@@ -2631,11 +2639,47 @@ user is not using shrink to fit then we expand the header.
           </div>
         </div>
       </section>
-  <!-- Service/END -->
-    </b:if>
-  </b:if>        
+  <!-- Service/END -->      
 
   <div class='clr'/>
+
+<!-- Portfolio/START -->
+
+      <section class='section page-header section-padding quoute-portfolio' id='portfolio'>
+       <div class='quoute-portfolio-r'>
+        <div class='container'>
+         <div class='row quoute-content'>
+          <div class='col-md-8'>
+        
+        <!-- Title -->
+        <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' title="You're about to be rickrolled :)" target='_blank'><h2 style='color:#ffffff; text-align: center; margin-top:40px'>Portfolio</h2></a>
+        <div class='border-bottom border-speciale'/><br/>
+        <div style='text-align:center;'>
+        <img alt='Video Editor' class='artport lazyload' data-src='https://1.bp.blogspot.com/-tduNo9C93Tw/Xou5HWBTuII/AAAAAAAAEUM/iy23r1EIC1E0IZ88sy3Sz8-A8cDPZVcIwCLcBGAsYHQ/s1600/UX---Video-Editor---EmmanuelTech---Ready.png'/>
+        <br/>
+        <img alt='Diseñador Web' class='artport lazyload' data-src='https://1.bp.blogspot.com/-tj0XkzqPBnE/Xou5Hgc-biI/AAAAAAAAEUQ/kd10u6DfqqAA61nRbTaUJxSFtKS_WFGfgCLcBGAsYHQ/s1600/Art--Emma.png' style='width: 270px;'/>
+        <br/>
+        <img alt='Editor de videos y diseñador web' class='artportbig lazyload' data-src='https://1.bp.blogspot.com/-vo1wAP0xx0Y/XovhyokkNfI/AAAAAAAAEUk/-Zv7tNfnNvI00KMXS0X9E8zHUPUssYXOACLcBGAsYHQ/s1600/Banner-Portfolio-PC.png'/>
+        </div>
+        <br/>
+          <p style='text-align: center;'>
+            Websites, video post-production, and diverse projects carried out:
+          </p>
+       
+       <!-- Portfolio link button -->
+          <div class='quoute-content'>
+      <a id="portfolioCallToAction" class='quoute-link' href='https://etechrd.blogspot.com/p/portafolio.html'>Catch a glimpse at the portfolio</a></div>
+
+          </div>
+         </div>
+        </div>
+       </div>
+      </section>
+
+<!-- Portfolio/END -->
+
+    </b:if>
+  </b:if>  
 
 <!-- Blog/START -->
       <section class='section section-padding quoute-portfolio' id='blog-ns'>
@@ -3795,41 +3839,6 @@ user is not using shrink to fit then we expand the header.
 });
 </script>
 
-  <!-- Portfolio/START -->
-
-      <section class='section page-header section-padding quoute-portfolio' id='portafolio'>
-       <div class='quoute-portfolio-r'>
-        <div class='container'>
-         <div class='row quoute-content'>
-          <div class='col-md-8'>
-        
-        <!-- Title -->
-        <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'><h2 style='color:#ffffff; text-align: center; margin-top:40px'>Portafolio</h2></a>
-        <div class='border-bottom border-speciale'/><br/>
-        <div style='text-align:center;'>
-        <img alt='Video Editor' class='artport lazyload' data-src='https://1.bp.blogspot.com/-tduNo9C93Tw/Xou5HWBTuII/AAAAAAAAEUM/iy23r1EIC1E0IZ88sy3Sz8-A8cDPZVcIwCLcBGAsYHQ/s1600/UX---Video-Editor---EmmanuelTech---Ready.png'/>
-        <br/>
-        <img alt='Diseñador Web' class='artport lazyload' data-src='https://1.bp.blogspot.com/-tj0XkzqPBnE/Xou5Hgc-biI/AAAAAAAAEUQ/kd10u6DfqqAA61nRbTaUJxSFtKS_WFGfgCLcBGAsYHQ/s1600/Art--Emma.png' style='width: 270px;'/>
-        <br/>
-        <img alt='Editor de videos y diseñador web' class='artportbig lazyload' data-src='https://1.bp.blogspot.com/-vo1wAP0xx0Y/XovhyokkNfI/AAAAAAAAEUk/-Zv7tNfnNvI00KMXS0X9E8zHUPUssYXOACLcBGAsYHQ/s1600/Banner-Portfolio-PC.png'/>
-        </div>
-        <br/>
-          <p style='text-align: center;'>
-            Paginas web&#180;s, post-producciones de videos y distintos proyectos realizados:
-          </p>
-       
-       <!-- Portfolio link button -->
-          <div class='quoute-content' style='text-align: center; margin-top: 40px; margin-bottom: 40px;'>
-      <a class='quoute-link' href='https://etechrd.blogspot.com/p/portafolio.html' style='float: none;'>Ver Trabajos</a></div>
-
-          </div>
-         </div>
-        </div>
-       </div>
-      </section>
-
-  <!-- Portfolio/END -->
-
     </b:if>
   </b:if>        
 
@@ -3840,7 +3849,7 @@ user is not using shrink to fit then we expand the header.
     <div class='container'>
       <!--Page Header-->
       <div class='row page-header'>
-        <h2>HOLA</h2><!-- Heading -->
+        <h2 style="margin-top: 0px">Get in touch</h2><!-- Heading -->
         <div class='border-bottom'/>
       </div>
       <!--Page Content-->
@@ -3894,28 +3903,28 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
                 <form class='ct-form contactForm' id='ct-form' method='post' name='contact-form'>
                   <div class='row'>
                     <div class='col-sm-12 col-md-12 col-xs-12' style='width: 50%!important'>
-                     <label for='ContactForm1_contact-form-name'>Como te llamas?</label>
+                     <label for='ContactForm1_contact-form-name'>Your name</label>
                       <div class='form-group'>
                         <i class='icon lnr lnr-user'/>
-                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='name' name='name' placeholder='Nombre' required='' type='text'/>
+                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='name' name='name' required='' type='text'/>
                       </div>
                     </div>
                     <div class='col-sm-12 col-md-12 col-xs-12' style='width: 50%!important'>
-                     <label for='ContactForm1_contact-form-email'>Cual es tu email?</label>
+                     <label for='ContactForm1_contact-form-email'>Email</label>
                       <div class='form-group'>
                         <i class='icon lnr lnr-rocket'/>
-                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='email' name='email' placeholder='Email' required='' type='email'/>
+                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='email' name='email' required='' type='email'/>
                       </div>
                     </div>
                   </div>
-                  <label for='ContactForm1_contact-form-email-message'>Escribe tu mensaje y haz click en enviar...</label>
+                  <label for='ContactForm1_contact-form-email-message'>Message</label>
                   <div class='row form-group'>
                     <div class='col-lg-12'>
                       <i class='icon lnr lnr-pencil contact-i'/>
-                      <textarea class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='msg' name='msg' placeholder='Mensaje!'/>
+                      <textarea class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='msg' name='msg'/>
                     </div>
                   </div>
-                  <button class='btn post-btn' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg'>Enviar</button>
+                  <button class='btn post-btn' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg'>Send</button>
 
                   <div style='text-align: center; width: 100%'>
                     <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
@@ -4002,10 +4011,10 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
   <div class='aisa-copyright'>
     <div class='container'>
       <div class='row'>
-        <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-left'>Copyright &#169; 20-23 <data:blog.title/>. Plantilla de <a href='https://www.templateclue.com/' id='templateclue' ref='dofollow' title='Template Clue'>P.B.T</a>. <a href='https://etechrd.blogspot.com/p/politicas-de-privacidad-la-presente.html' id='privacyet' ref='dofollow' title='Política de Privacidad EmmanuelTech'>Política de Privacidad</a>.</div>
+        <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-left'>Copyright &#169; <script type="text/javascript">var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <data:blog.title/>. <a href='https://www.templateclue.com/' id='templateclue' ref='dofollow' title='Template Clue'>P.B.T</a> theme. <a href='https://etechrd.blogspot.com/p/politicas-de-privacidad-la-presente.html' id='privacyet' ref='dofollow' title='Política de Privacidad EmmanuelTech'>Privacy Policy.</a></div>
         
         <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-right'>
-          <div class='goto-top  goto-top-5847b997a6ce8'>Made With <i aria-hidden='true' class='fab fa-blogger-b' style='color:#5f6776; margin: 0 1px;'/>logger</div>
+          <div class='goto-top  goto-top-5847b997a6ce8'>Proudly made <i aria-hidden='true' class='fas fa-heart' style='color:#c10000; margin: 0 1px;'/> with the Google <i aria-hidden='true' class='fab fa-blogger-b' style='color:#c16e00; margin: 0 1px;'/>logger technology.</div>
         </div>
       </div>
     </div>
