@@ -2428,9 +2428,6 @@ window.cookieconsent.initialise({
 </script>
 <!-- Osano Cookies End -->
 
-<!-- Social9 Share Content -->
-<script async='async' content='666b4879a1bc4d7ba79389ca30098eff' defer='defer' id='s9-sdk' src='//cdn.social9.com/js/socialshare.min.js'/>
-<!-- Social9 Share Content END -->
   <!--Header start-->
   <header class='header'>
     <nav class='navbar navbar-inverse navbar-white navbar-fixed-top navbar-expanded'>
@@ -3906,14 +3903,14 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
                      <label for='ContactForm1_contact-form-name'>Your name</label>
                       <div class='form-group'>
                         <i class='icon lnr lnr-user'/>
-                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='name' name='name' required='' type='text'/>
+                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='name' name='name' required='' type='text' placeholder="e.g. Emmanuel Soto"/>
                       </div>
                     </div>
                     <div class='col-sm-12 col-md-12 col-xs-12' style='width: 50%!important'>
                      <label for='ContactForm1_contact-form-email'>Email</label>
                       <div class='form-group'>
                         <i class='icon lnr lnr-rocket'/>
-                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='email' name='email' required='' type='email'/>
+                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='email' name='email' required='' type='email' placeholder="e.g. emmail@gmail.com"/>
                       </div>
                     </div>
                   </div>
@@ -3921,7 +3918,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
                   <div class='row form-group'>
                     <div class='col-lg-12'>
                       <i class='icon lnr lnr-pencil contact-i'/>
-                      <textarea class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='msg' name='msg'/>
+                      <textarea class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='msg' name='msg' placeholder="e.g. I would like to get in contact with you so we can discuss a project of mine."/>
                     </div>
                   </div>
                   <button class='btn post-btn' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg'>Send</button>
