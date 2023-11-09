@@ -2422,7 +2422,7 @@ window.cookieconsent.initialise({
     &quot;message&quot;: &quot;To provide you with the best possible experience, my website utilizes cookies.&quot;,
     &quot;dismiss&quot;: &quot;Cool!!&quot;,
     &quot;link&quot;: &quot;I want to know more about it...&quot;,
-    &quot;href&quot;: &quot;https://etechrd.blogspot.com/p/politica-de-cookies.html&quot;
+    &quot;href&quot;: &quot;https://www.esportfolio.dev/p/cookie-policy.html&quot;
   }
 });
 </script>
@@ -4008,7 +4008,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
   <div class='aisa-copyright'>
     <div class='container'>
       <div class='row'>
-        <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-left'>Copyright &#169; <script type="text/javascript">var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <data:blog.title/>. <a href='https://www.templateclue.com/' id='templateclue' ref='dofollow' title='Template Clue'>P.B.T</a> theme. <a href='https://etechrd.blogspot.com/p/politicas-de-privacidad-la-presente.html' id='privacyet' ref='dofollow' title='Política de Privacidad EmmanuelTech'>Privacy Policy.</a></div>
+        <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-left'>Copyright &#169; <script type="text/javascript">var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <data:blog.title/>. <a href='https://www.templateclue.com/' id='templateclue' ref='dofollow' title='Template Clue'>P.B.T</a> theme. <a href='https://www.esportfolio.dev/p/privacy-policy.html' id='privacyet' ref='dofollow' title='Emmanuel Soto - Portfolio Privacy Policy'>Privacy Policy.</a></div>
         
         <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-right'>
           <div class='goto-top  goto-top-5847b997a6ce8'>Proudly made <i aria-hidden='true' class='fas fa-heart' style='color:#c10000; margin: 0 1px;'/> with the Google <i aria-hidden='true' class='fab fa-blogger-b' style='color:#c16e00; margin: 0 1px;'/>logger technology.</div>
