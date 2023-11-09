@@ -7,4 +7,4 @@ This is the repository for the "Emmanuel Soto - Portfolio" made on Blogger.
 
 > I'll showcase all of my work and projects in there.
 
-You can give me a visit right away at: [Emmanuel Soto - Portfolio](https://etechrd.blogspot.com) <3
+You can give me a visit right away at: [Emmanuel Soto - Portfolio](https://www.esportfolio.dev/) <3
