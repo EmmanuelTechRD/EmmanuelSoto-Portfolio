@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' lang='es-do' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 &lt;head&gt;
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -1612,7 +1612,7 @@ display:none;
 .showpageArea{
 padding-bottom:20px;
 }
-.status-msg-wrap{text-align:center;padding:17px;color:#6F6B6B;margin-bottom:25px;text-transform:capitalize;border:1px solid #ddd}
+.status-msg-wrap{text-align:center;padding:17px;color:#ffffff;margin-bottom:25px;text-transform:capitalize;border:1px solid #ddd}
 .status-msg-border{display:none}
 /*-------------------------------------------*/
 /*  9. Sidebar CSS
@@ -2594,7 +2594,7 @@ user is not using shrink to fit then we expand the header.
                     <div class='service-box style-2 '>
                       <!-- Service Icon --><i class='lnr lnr-camera-video'/>
                       <div class='service-box-content'>
-                        <!-- Service Heading --><a href="/#contact"><h4><strong>Video editing</strong></h4></a>
+                        <!-- Service Heading --><a href='/#contact'><h4><strong>Video editing</strong></h4></a>
                         <!-- Service Description --><p>Cuts, transitions, animations, special effects and audio.</p>
                       </div>
                     </div>
@@ -2610,7 +2610,7 @@ user is not using shrink to fit then we expand the header.
                       <!-- Service Icon --><i class='lnr lnr-earth'/>
                       <div class='service-box-content'>
                         <!-- Service Heading -->
-                        <a href="/#contact"><h4><strong>Web Development</strong></h4></a>
+                        <a href='/#contact'><h4><strong>Web Development</strong></h4></a>
                         <!-- Service Description --><p>Customized design and development of websites with responsive technology.</p>
                       </div>
                     </div>
@@ -2625,7 +2625,7 @@ user is not using shrink to fit then we expand the header.
                     <div class='service-box style-2 '>
                       <!-- Icon --><i class='lnr lnr-screen'/>
                       <div class='service-box-content'>
-                        <!-- Service Heading --><a href="/#contact"><h4><strong>Graphic Design</strong></h4></a>
+                        <!-- Service Heading --><a href='/#contact'><h4><strong>Graphic Design</strong></h4></a>
                         <!-- Service Description --><p>Animations, logos and corporate identity, photo editing among other things.</p>
                       </div>
                     </div>
@@ -2649,7 +2649,7 @@ user is not using shrink to fit then we expand the header.
           <div class='col-md-8'>
         
         <!-- Title -->
-        <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' title="You're about to be rickrolled :)" target='_blank'><h2 style='color:#ffffff; text-align: center; margin-top:40px'>Portfolio</h2></a>
+        <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' title='You&apos;re about to be rickrolled :)'><h2 style='color:#ffffff; text-align: center; margin-top:40px'>Portfolio</h2></a>
         <div class='border-bottom border-speciale'/><br/>
         <div style='text-align:center;'>
         <img alt='Video Editor' class='artport lazyload' data-src='https://1.bp.blogspot.com/-tduNo9C93Tw/Xou5HWBTuII/AAAAAAAAEUM/iy23r1EIC1E0IZ88sy3Sz8-A8cDPZVcIwCLcBGAsYHQ/s1600/UX---Video-Editor---EmmanuelTech---Ready.png'/>
@@ -2665,7 +2665,7 @@ user is not using shrink to fit then we expand the header.
        
        <!-- Portfolio link button -->
           <div class='quoute-content'>
-      <a id="portfolioCallToAction" class='quoute-link' href='https://etechrd.blogspot.com/p/portafolio.html'>Catch a glimpse at the portfolio</a></div>
+      <a class='quoute-link' href='https://www.esportfolio.dev/p/portfolio.html' id='portfolioCallToAction'>Catch a glimpse at the portfolio</a></div>
 
           </div>
          </div>
@@ -3846,7 +3846,7 @@ user is not using shrink to fit then we expand the header.
     <div class='container'>
       <!--Page Header-->
       <div class='row page-header'>
-        <h2 style="margin-top: 0px">Get in touch</h2><!-- Heading -->
+        <h2 style='margin-top: 0px'>Get in touch</h2><!-- Heading -->
         <div class='border-bottom'/>
       </div>
       <!--Page Content-->
@@ -3903,14 +3903,14 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
                      <label for='ContactForm1_contact-form-name'>Your name</label>
                       <div class='form-group'>
                         <i class='icon lnr lnr-user'/>
-                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='name' name='name' required='' type='text' placeholder="e.g. Emmanuel Soto"/>
+                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='name' name='name' placeholder='e.g. Emmanuel Soto' required='' type='text'/>
                       </div>
                     </div>
                     <div class='col-sm-12 col-md-12 col-xs-12' style='width: 50%!important'>
                      <label for='ContactForm1_contact-form-email'>Email</label>
                       <div class='form-group'>
                         <i class='icon lnr lnr-rocket'/>
-                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='email' name='email' required='' type='email' placeholder="e.g. emmail@gmail.com"/>
+                        <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='email' name='email' placeholder='e.g. emmail@gmail.com' required='' type='email'/>
                       </div>
                     </div>
                   </div>
@@ -3918,7 +3918,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
                   <div class='row form-group'>
                     <div class='col-lg-12'>
                       <i class='icon lnr lnr-pencil contact-i'/>
-                      <textarea class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='msg' name='msg' placeholder="e.g. I would like to get in contact with you so we can discuss a project of mine."/>
+                      <textarea class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='msg' name='msg' placeholder='e.g. I would like to get in contact with you so we can discuss a project of mine.'/>
                     </div>
                   </div>
                   <button class='btn post-btn' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg'>Send</button>
@@ -4008,7 +4008,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
   <div class='aisa-copyright'>
     <div class='container'>
       <div class='row'>
-        <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-left'>Copyright &#169; <script type="text/javascript">var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <data:blog.title/>. <a href='https://www.templateclue.com/' id='templateclue' ref='dofollow' title='Template Clue'>P.B.T</a> theme. <a href='https://www.esportfolio.dev/p/privacy-policy.html' id='privacyet' ref='dofollow' title='Emmanuel Soto - Portfolio Privacy Policy'>Privacy Policy.</a></div>
+        <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-left'>Copyright &#169; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <data:blog.title/>. <a href='https://www.templateclue.com/' id='templateclue' ref='dofollow' title='Template Clue'>P.B.T</a> theme. <a href='https://www.esportfolio.dev/p/privacy-policy.html' id='privacyet' ref='dofollow' title='Emmanuel Soto - Portfolio Privacy Policy'>Privacy Policy.</a></div>
         
         <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 aisa-right'>
           <div class='goto-top  goto-top-5847b997a6ce8'>Proudly made <i aria-hidden='true' class='fas fa-heart' style='color:#c10000; margin: 0 1px;'/> with the Google <i aria-hidden='true' class='fab fa-blogger-b' style='color:#c16e00; margin: 0 1px;'/>logger technology.</div>
